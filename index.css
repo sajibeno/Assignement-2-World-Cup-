@@ -493,3 +493,250 @@ hr {
         color: white;
     }
 }
+
+@media screen and (min-width:577px) and (max-width:768px) {
+    body {
+        font-family: 'Poppins', sans-serif;
+    }
+
+    .container {
+        padding-left: 5%;
+        padding-right: 5%;
+        padding-top: 3%;
+    }
+
+    article {
+        align-items: center;
+    }
+
+    .top-banner {
+        width: 600px;
+        height: 646px;
+        background-color: rgb(19, 19, 3);
+        border-radius: 40px;
+        align-items: center;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        padding-bottom: 30px;
+    }
+
+    .title {
+        color: white;
+        padding-left: 5%;
+    }
+
+    .title .headline {
+        font-size: 20px;
+        font-weight: 200;
+    }
+
+    .paragraph {
+        font-size: 10px;
+        text-align: justify;
+    }
+
+    .button {
+        padding-top: 20px;
+    }
+
+    .watch {
+
+        width: 100px;
+        height: 30px;
+        padding-top: 10px;
+        background-color: red;
+        border-radius: 10px;
+    }
+
+    .link {
+        text-decoration: none;
+        padding-left: 10px;
+        color: white;
+        font-size: 13px;
+    }
+
+    .player-marcello {
+        padding-bottom: 5%;
+    }
+
+    .marcello {
+        width: 280px;
+        padding-left: 5%;
+    }
+
+    .container1 {
+        padding-left: 5%;
+        padding-right: 5%;
+        padding-top: 6%;
+    }
+
+    .box {
+        height: 252px;
+        width: 312px;
+        background-color: black;
+        border-radius: 15px;
+    }
+
+    .bar {
+        padding-left: 28px;
+        padding-top: 6px;
+        padding-bottom: 6px;
+    }
+
+    .module,
+    .module2 {
+        color: black;
+        background-color: white;
+        width: 252px;
+        height: 64px;
+        border-radius: 10px;
+    }
+
+    .match {
+        padding-top: 13px;
+        text-align: center;
+    }
+
+    .module2 {
+        background-color: red;
+    }
+
+    .match-list {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .meno-bar {
+        width: 252px;
+        height: 362px;
+        padding-right: 25px;
+    }
+
+    .match-number {
+        width: 35%;
+
+    }
+
+    .match-detail {
+        width: 252px;
+        height: 362px;
+        background-color: rgb(255, 247, 247);
+        border-radius: 12px;
+    }
+
+    .image {
+        width: 252px;
+        height: 175px;
+        border-radius: 10px;
+    }
+
+    .transfer-css,
+    .details {
+        padding-left: 10px;
+        padding-top: 15px;
+    }
+
+    .transfer-box {
+        width: 100px;
+        height: 25px;
+        border: 1px solid rgb(123, 115, 115);
+        border-radius: 10px;
+    }
+
+    .transfer {
+        padding: 0px;
+        margin: 0px;
+        text-align: center;
+        font-size: 15px;
+        color: rgba(49, 50, 51, 0.953);
+    }
+
+    .details {
+        padding-left: 10px;
+        padding-top: 0px;
+    }
+
+    .icons {
+        display: flex;
+    }
+
+    .icon-css {
+        padding-left: 10px;
+        justify-content: flex-start;
+    }
+
+    .hour {
+        padding-left: 10px;
+    }
+
+    .comments {
+        padding-left: 25px;
+    }
+
+    .com-number {
+        padding-left: 10px;
+    }
+
+    .container2,
+    .container3 {
+        padding-left: 5%;
+        padding-right: 5%;
+        padding-top: 3%;
+    }
+
+    .match-list2 {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .container3 {
+        padding-bottom: 8%;
+    }
+
+
+    .container4 {
+        width: 750px;
+        background-color: black;
+        height: 550px;
+        padding: 0%;
+        margin: 0%;
+        border: 0px;
+    }
+
+    .goal {
+        padding-top: 65px;
+        color: white;
+        font-size: 45px;
+        text-align: center;
+    }
+
+    hr {
+        width: 500px;
+        align-items: center;
+        color: white;
+    }
+
+    .contact {
+        padding-left: 100px;
+        padding-bottom: 100px;
+        display: grid;
+        grid-template-columns: repeat(6, 1fr);
+
+    }
+
+    .contact-details {
+        font-size: 12px;
+        text-decoration: none;
+        color: white;
+        padding-top: 80px;
+        padding-bottom: 60px;
+    }
+
+    .social-icons {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        align-items: center;
+        color: white;
+    }
+
+}
