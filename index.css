@@ -34,7 +34,6 @@ article {
 }
 
 .paragraph {
-    /* padding-top: 10px; */
     font-size: 16px;
     text-align: justify;
 }
@@ -109,7 +108,8 @@ article {
 }
 
 .match-list {
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
 }
 
 .meno-bar {
@@ -185,13 +185,14 @@ article {
 
 .container2,
 .container3 {
-    padding-left: 487px;
+    padding-left: 550px;
     padding-right: 8%;
     padding-top: 3%;
 }
 
 .match-list2 {
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
 }
 
 .container3 {
@@ -201,8 +202,42 @@ article {
 .container4 {
     width: 1880px;
     background-color: black;
-    height: 600px;
+    height: 550px;
     padding: 0%;
     margin: 0%;
     border: 0px;
+}
+
+.goal {
+    padding-top: 95px;
+    color: white;
+    font-size: 45px;
+    text-align: center;
+}
+
+hr {
+    width: 1600px;
+    align-items: center;
+    color: white;
+}
+
+.contact {
+    padding-left: 200px;
+    padding-bottom: 200px;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+}
+
+.contact-details {
+    text-decoration: none;
+    color: white;
+    padding-top: 80px;
+    padding-bottom: 60px;
+}
+
+.social-icons {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+    color: white;
 }
