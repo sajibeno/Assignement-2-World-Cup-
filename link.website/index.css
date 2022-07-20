@@ -164,6 +164,14 @@ article {
     padding-bottom: 8%;
 }
 
+/* View all  */
+.view-all {
+    width: 180px;
+    height: 65px;
+    background-color: red;
+    border-radius: 10px;
+}
+
 .container4 {
     width: 1880px;
     background-color: black;
