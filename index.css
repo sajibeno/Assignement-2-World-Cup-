@@ -3,21 +3,24 @@ body {
 }
 
 .container {
-    padding-left: 12%;
+    padding-left: 8%;
+    padding-right: 8%;
     padding-top: 3%;
 }
 
-.top-banner {
-    width: 1421px;
-    height: 746px;
-    background-color: rgb(19, 19, 3);
-    border-radius: 40px;
+article {
     align-items: center;
 }
 
 .top-banner {
+    width: 1580px;
+    height: 746px;
+    background-color: rgb(19, 19, 3);
+    border-radius: 40px;
+    align-items: center;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+    padding-bottom: 30px;
 }
 
 .title {
@@ -66,4 +69,140 @@ body {
 
 
 
+}
+
+.container1 {
+    padding-left: 8%;
+    padding-right: 8%;
+    padding-top: 6%;
+}
+
+.box {
+    height: 312px;
+    width: 312px;
+    background-color: black;
+    border-radius: 15px;
+}
+
+.bar {
+    padding-left: 28px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+}
+
+.module,
+.module2 {
+    color: black;
+    background-color: white;
+    width: 252px;
+    height: 64px;
+    border-radius: 10px;
+}
+
+.match {
+    padding-top: 13px;
+    text-align: center;
+}
+
+.module2 {
+    background-color: red;
+}
+
+.match-list {
+    display: flex;
+}
+
+.meno-bar {
+    width: 312px;
+    height: 362px;
+    padding-right: 25px;
+}
+
+.match-number {
+    width: 35%;
+    padding-left: 25px;
+}
+
+.match-detail {
+    width: 312px;
+    height: 362px;
+    background-color: rgb(255, 247, 247);
+    border-radius: 12px;
+}
+
+.image {
+    width: 312px;
+    height: 175px;
+    border-radius: 10px;
+}
+
+.transfer-css,
+.details {
+    padding-left: 10px;
+    padding-top: 15px;
+}
+
+.transfer-box {
+    width: 100px;
+    height: 25px;
+    border: 1px solid rgb(123, 115, 115);
+    border-radius: 10px;
+}
+
+.transfer {
+    padding: 0px;
+    margin: 0px;
+    text-align: center;
+    font-size: 15px;
+    color: rgba(49, 50, 51, 0.953);
+}
+
+.details {
+    padding-left: 10px;
+    padding-top: 0px;
+}
+
+.icons {
+    display: flex;
+}
+
+.icon-css {
+    padding-left: 10px;
+    justify-content: flex-start;
+}
+
+.hour {
+    padding-left: 10px;
+}
+
+.comments {
+    padding-left: 25px;
+}
+
+.com-number {
+    padding-left: 10px;
+}
+
+.container2,
+.container3 {
+    padding-left: 487px;
+    padding-right: 8%;
+    padding-top: 3%;
+}
+
+.match-list2 {
+    display: flex;
+}
+
+.container3 {
+    padding-bottom: 8%;
+}
+
+.container4 {
+    width: 1880px;
+    background-color: black;
+    height: 600px;
+    padding: 0%;
+    margin: 0%;
+    border: 0px;
 }
